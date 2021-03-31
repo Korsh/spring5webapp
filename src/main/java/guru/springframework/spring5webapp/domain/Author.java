@@ -21,13 +21,6 @@ public class Author {
     private Set<Book> books = new HashSet<>();
 
     public Author() {
-
-    }
-
-    public Author(String firstName, String lastName, Set<Book> books) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.books = books;
     }
 
     public Author(String firstName, String lastName) {
@@ -73,7 +66,6 @@ public class Author {
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", books=" + books +
                 '}';
     }
 
